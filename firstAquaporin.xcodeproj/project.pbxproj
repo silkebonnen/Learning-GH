@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A129AFC25DA816700C51E79 /* Pic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A129AFB25DA816700C51E79 /* Pic.swift */; };
 		2A67B4D925D7F91400D14CF8 /* firstAquaporinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A67B4D825D7F91400D14CF8 /* firstAquaporinApp.swift */; };
 		2A67B4DB25D7F91400D14CF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A67B4DA25D7F91400D14CF8 /* ContentView.swift */; };
 		2A67B4DD25D7F91500D14CF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A67B4DC25D7F91500D14CF8 /* Assets.xcassets */; };
 		2A67B4E025D7F91500D14CF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A67B4DF25D7F91500D14CF8 /* Preview Assets.xcassets */; };
+		2A67B4EE25D7F99800D14CF8 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A67B4ED25D7F99800D14CF8 /* Page.swift */; };
+		2A67B4F125D7F9AA00D14CF8 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A67B4F025D7F9AA00D14CF8 /* PageModel.swift */; };
+		2A67B4F425D7F9C900D14CF8 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A67B4F325D7F9C900D14CF8 /* DataService.swift */; };
+		2A67B4FC25D7FAB800D14CF8 /* Aquaporin.json in Resources */ = {isa = PBXBuildFile; fileRef = 2A67B4FB25D7FAB800D14CF8 /* Aquaporin.json */; };
+		2AB50E9625D81ADE009F162D /* ReadMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB50E9525D81ADE009F162D /* ReadMore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A129AFB25DA816700C51E79 /* Pic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pic.swift; sourceTree = "<group>"; };
 		2A67B4D525D7F91400D14CF8 /* firstAquaporin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstAquaporin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A67B4D825D7F91400D14CF8 /* firstAquaporinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstAquaporinApp.swift; sourceTree = "<group>"; };
 		2A67B4DA25D7F91400D14CF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2A67B4DC25D7F91500D14CF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A67B4DF25D7F91500D14CF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2A67B4E125D7F91500D14CF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A67B4ED25D7F99800D14CF8 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		2A67B4F025D7F9AA00D14CF8 /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		2A67B4F325D7F9C900D14CF8 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		2A67B4FB25D7FAB800D14CF8 /* Aquaporin.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Aquaporin.json; sourceTree = "<group>"; };
+		2AB50E9525D81ADE009F162D /* ReadMore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadMore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +64,12 @@
 		2A67B4D725D7F91400D14CF8 /* firstAquaporin */ = {
 			isa = PBXGroup;
 			children = (
+				2A67B4EC25D7F94C00D14CF8 /* View */,
+				2A67B4EB25D7F94300D14CF8 /* ViewModel */,
+				2A67B4EA25D7F93E00D14CF8 /* Model */,
+				2A67B4E925D7F93700D14CF8 /* Service */,
+				2A67B4E825D7F92300D14CF8 /* Data */,
 				2A67B4D825D7F91400D14CF8 /* firstAquaporinApp.swift */,
-				2A67B4DA25D7F91400D14CF8 /* ContentView.swift */,
 				2A67B4DC25D7F91500D14CF8 /* Assets.xcassets */,
 				2A67B4E125D7F91500D14CF8 /* Info.plist */,
 				2A67B4DE25D7F91500D14CF8 /* Preview Content */,
@@ -67,6 +83,48 @@
 				2A67B4DF25D7F91500D14CF8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2A67B4E825D7F92300D14CF8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2A67B4FB25D7FAB800D14CF8 /* Aquaporin.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2A67B4E925D7F93700D14CF8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2A67B4F325D7F9C900D14CF8 /* DataService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2A67B4EA25D7F93E00D14CF8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A67B4ED25D7F99800D14CF8 /* Page.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A67B4EB25D7F94300D14CF8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2A67B4F025D7F9AA00D14CF8 /* PageModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2A67B4EC25D7F94C00D14CF8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A67B4DA25D7F91400D14CF8 /* ContentView.swift */,
+				2AB50E9525D81ADE009F162D /* ReadMore.swift */,
+				2A129AFB25DA816700C51E79 /* Pic.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +186,7 @@
 			files = (
 				2A67B4E025D7F91500D14CF8 /* Preview Assets.xcassets in Resources */,
 				2A67B4DD25D7F91500D14CF8 /* Assets.xcassets in Resources */,
+				2A67B4FC25D7FAB800D14CF8 /* Aquaporin.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +197,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A129AFC25DA816700C51E79 /* Pic.swift in Sources */,
+				2AB50E9625D81ADE009F162D /* ReadMore.swift in Sources */,
+				2A67B4F125D7F9AA00D14CF8 /* PageModel.swift in Sources */,
 				2A67B4DB25D7F91400D14CF8 /* ContentView.swift in Sources */,
 				2A67B4D925D7F91400D14CF8 /* firstAquaporinApp.swift in Sources */,
+				2A67B4EE25D7F99800D14CF8 /* Page.swift in Sources */,
+				2A67B4F425D7F9C900D14CF8 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

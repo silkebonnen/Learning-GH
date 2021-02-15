@@ -1,0 +1,33 @@
+[
+    {
+        "name":"AQUAPORIN INSIDE",
+        "image":"Aquaporin1",
+        "department":"TECHNOLOGY",
+        "text": "All of our products contain aquaporins, the proteins responsible for transporting and purifying water in all living cells. Billions of years of evolution have made aquaporins super-efficient and super-selective, far better than any man-made water filter. By incorporating aquaporins into our biomimetic membranes, we enable you to tailor-clean water faster and more energy-efficiently than ever before."
+    },
+    {
+        "name":"DRINKING WATER",
+        "image":"Aquaporin2",
+        "department":"MARKET",
+        "text": "Universal access to clean drinking water is one of the world's biggest challenges. In many areas, including Europe and the United States, water resources are at risk and public trust in drinking water is under pressure, leading consumers to seek alternative solutions."
+    },
+    {
+        "name":"INDUSTRIAL WATER",
+        "image":"Aquaporin3",
+        "department":"MARKET",
+        "text": "Get one step closer to Zero Liquid Discharge, with less pre-filtration, less cleaning and reduced CAPEX and OPEX."
+    },
+    {
+        "name":"BUSINESS CRITICAL IMPROVEMENTS TO DIALYSIS MACHINE DESIGN",
+        "image":"Aquaporin4",
+        "department":"HEMODIALYSIS",
+        "text": "With populations aging and water scarcity an increasing global problem, healthcare providers are looking for dialysis treatment options that reduce water use and can be performed at home. The answer is a new generation of water treatment solutions that can reduce water use during in-center treatment by 75%, while paving the way for smaller and lighter portable home dialysis machines."
+    },
+    {
+        "name":"DRINKING WATER MEMBRANES",
+        "image":"Aquaporin5",
+        "department":"PRODUCTS",
+        "text": "The Aquaporin Inside® Tap Water Membrane is the only membrane in the industry to use aquaporins – nature’s own water filters – to filter drinking water. The result? Great tasting tap water that’s healthy, refreshing, and filtered naturally."
+    }
+]
+
